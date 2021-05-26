@@ -1,0 +1,12 @@
+//This Keyword
+//-> In case of regular functions, this represents the object that called the function.
+//-> In case of arrow functions, this represents the header object irrespective of the object that called the function.
+//Var
+//Var has function scope not block scope, means var is available outside of a block too, but not function.
+//Let
+//Let has block scope.
+//Const
+//Const is a variable that once created, does not change value. Has block scope.
+//JSX is an extension of JavaScript based on ES6, and is translated into regular JS at *runtime*.
+//HTML code should have one TOP Level element, means if we want to have multiple headers, then these headers should be inside a div(parent element).
+//JSX will throw an error if the HTML is not correct, or if the HTML misses a parent element.
