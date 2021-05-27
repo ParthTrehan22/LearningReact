@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Garage from './Props';
+import Car from './States';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App color = "Red"/> */}
+    {/* <Garage></Garage> */}
+    <Car></Car>
   </React.StrictMode>,
   document.getElementById('root')
 );

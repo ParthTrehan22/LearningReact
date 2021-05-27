@@ -10,3 +10,10 @@
 //JSX is an extension of JavaScript based on ES6, and is translated into regular JS at *runtime*.
 //HTML code should have one TOP Level element, means if we want to have multiple headers, then these headers should be inside a div(parent element).
 //JSX will throw an error if the HTML is not correct, or if the HTML misses a parent element.
+//Components
+//Components are like functions in JS but they work in isolation and return HTML using the render function.
+//In Components the properties are saved in objects called state.
+//Also, we can send the props as attributes to the Components, just like we pass parameters in a normal function.
+//Props 
+//Props are the attributes or arguments which we pass to the Components.
+//State 
