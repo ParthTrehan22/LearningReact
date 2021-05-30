@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Garage from './Props';
 import Car from './States';
+import Mounting from './Mounting';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App color = "Red"/> */}
     {/* <Garage></Garage> */}
-    <Car></Car>
+    {/* <Car></Car> */}
+    <Mounting model = "CLS 200"></Mounting>
   </React.StrictMode>,
   document.getElementById('root')
 );

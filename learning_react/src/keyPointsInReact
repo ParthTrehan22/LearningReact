@@ -16,4 +16,10 @@
 //Also, we can send the props as attributes to the Components, just like we pass parameters in a normal function.
 //Props 
 //Props are the attributes or arguments which we pass to the Components.
-//State 
+//Lifecycle Methods
+//Mounting
+//constructor - Where we set the properties, or initial state
+//getDerivedStateFromProps -  called just before rendering, used to set the props, takes in props and state as argument and returns a state.
+//componentDidMount - called after the component is rendered. This is where you run statements that requires that the component is already placed in the DOM.
+//Updating
+//
