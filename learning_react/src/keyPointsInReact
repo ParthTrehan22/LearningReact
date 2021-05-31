@@ -19,7 +19,9 @@
 //Lifecycle Methods
 //Mounting
 //constructor - Where we set the properties, or initial state
-//getDerivedStateFromProps -  called just before rendering, used to set the props, takes in props and state as argument and returns a state.
+//getDerivedStateFromProps - called just before rendering, used to set the props, takes in props and state as argument and returns a state.
 //componentDidMount - called after the component is rendered. This is where you run statements that requires that the component is already placed in the DOM.
 //Updating
-//
+//getDerivedStateFromProps - called after the component has been updated
+//shouldComponentUpdate - returns a boolean value, that defines that the component should update or not, by default true.
+  

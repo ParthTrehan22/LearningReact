@@ -6,13 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import Garage from './Props';
 import Car from './States';
 import Mounting from './Mounting';
+import Updating from './Updating';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App color = "Red"/> */}
     {/* <Garage></Garage> */}
     {/* <Car></Car> */}
-    <Mounting model = "CLS 200"></Mounting>
+    {/* <Mounting model = "CLS 200"></Mounting> */}
+    <Updating color="Black"></Updating>
   </React.StrictMode>,
   document.getElementById('root')
 );
