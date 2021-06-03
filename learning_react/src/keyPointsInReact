@@ -26,3 +26,5 @@
 //shouldComponentUpdate - returns a boolean value, that defines that the component should update or not, by default true.
 //getSnapshotBeforeUpdate - this method has the access to props and states before the component is updated. Also, componentDidUpdate function should be present else there will be error.
 //componentDidUpdate - this method is called after the component is updated.   
+//Unmounting 
+//componentWillUnmount - called before the component is about to be unmounted.
