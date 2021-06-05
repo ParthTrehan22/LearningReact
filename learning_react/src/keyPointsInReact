@@ -28,3 +28,16 @@
 //componentDidUpdate - this method is called after the component is updated.   
 //Unmounting 
 //componentWillUnmount - called before the component is about to be unmounted.
+//Events - events are actions that need to be performed, like onClick, mouseOver, etc.
+//A good practice is to put the event handler as a method in the component class.
+//Good Practice - Use arrow functions for event handlers as arrow functions binds "this" to the component or object that defined it.
+//Other than using arrow functions, regular functions can also implement this by using binding explicitly.
+//Arrow function - this refers to the component or object that defined the function.
+//Regular function - this refers to the component or object that called the function.
+//In case of regular function if you don't bind this keyword, then this keyword will return undefined.
+//Passing arguments
+//Similar to above in case of arrow functions we can directly pass values, but in case the event handler is a regular funtion then we have to bind the event handler to this.
+//Point to remember, in case of arrow function, keep in mind to use arrow function while passing the value as well.
+//Event handlers have access to the React event that triggered the function.
+//In case we need to access the event from the handler, and the handler is implementing the arrow function then we have to pass some variable explicitly in order to have the type of event.
+//In case we need to access the event from the handler, and the handler is implementing the regular function then the last parameter inside the event handler contains the event object and we dont have to pass it explicitly.

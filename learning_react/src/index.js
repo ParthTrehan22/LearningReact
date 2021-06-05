@@ -8,6 +8,7 @@ import Car from './States';
 import Mounting from './Mounting';
 import Updating from './Updating';
 import Unmounting from './Unmounting';
+import Events from './Events';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ ReactDOM.render(
     {/* <Car></Car> */}
     {/* <Mounting model = "CLS 200"></Mounting> */}
     {/* <Updating color="Black"></Updating> */}
-    <Unmounting></Unmounting>
+    {/* <Unmounting></Unmounting> */}
+    <Events></Events>
   </React.StrictMode>,
   document.getElementById('root')
 );
