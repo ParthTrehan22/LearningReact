@@ -9,6 +9,7 @@ import Mounting from './Mounting';
 import Updating from './Updating';
 import Unmounting from './Unmounting';
 import Events from './Events';
+import Forms from './Forms';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +19,8 @@ ReactDOM.render(
     {/* <Mounting model = "CLS 200"></Mounting> */}
     {/* <Updating color="Black"></Updating> */}
     {/* <Unmounting></Unmounting> */}
-    <Events></Events>
+    {/* <Events></Events> */}
+    <Forms></Forms>
   </React.StrictMode>,
   document.getElementById('root')
 );
