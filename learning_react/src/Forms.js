@@ -8,6 +8,7 @@ export default class Forms extends Component {
     multipleValuesHandler = (event) =>{
         let nam = event.target.name;
         let val = event.target.value;
+        let gender = event.target.gender;
         this.setState({[nam]: val});
     }
     submitHandler = (event) =>{
@@ -18,22 +19,44 @@ export default class Forms extends Component {
         this.setState({username: event.target.value});
     }
     render() {
-        let header = "";
-        if(this.state.username){
-            header = <h1>Hello: {this.state.username}</h1>;
-        }else{
-            header = "";
-        }
+        // let header = "";
+        // if(this.state.username){
+        //     header = <h1>Hello: {this.state.username}</h1>;
+        // }else{
+        //     header = "";
+        // }
         return (
-            <form onSubmit = {this.submitHandler}>
-                {header}
-                <p>Name:</p>
-                <input 
-                type="text"
-                onChange = {this.changeHandler}
+            <form>
+                <h1>Hello {this.state.username} and your age is {this.state.age} and your gender is {this.state.gender}</h1>
+                <p>Enter your name:</p>
+                <input
+                    type='text'
+                    name='username'
+                    onChange={this.multipleValuesHandler}
                 ></input>
-                <input type="submit"></input>
+                <p>Enter your gender:</p>
+                <input
+                    type='text'
+                    name='gender'
+                    onChange={this.multipleValuesHandler}
+                ></input>
+                <p>Enter your age:</p>
+                <input
+                    type='text'
+                    name='age'
+                    onChange={this.multipleValuesHandler}
+                >
+                </input>
             </form>
-        )
+            // <form onSubmit = {this.submitHandler}>
+            //     {header}
+            //     <p>Name:</p>
+            //     <input 
+            //     type="text"
+            //     onChange = {this.changeHandler}
+            //     ></input>
+            //     <input type="submit"></input>
+            // </form>
+        );
     }
 }
