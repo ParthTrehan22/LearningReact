@@ -44,3 +44,6 @@
 //In React, form data is usually handled by the components. When the data is handled by the components, all the data is stored in the component state.
 //Forms
 //We can prevent the form from being submitted by using the event.preventDefault() function.
+//Instead of sending an alert in case of a bad input, we can have an error message displayed on the side of the field giving information about the error caused.
+//In HTML the value of a textarea was the text between the start tag <textarea> and the end tag </textarea>, in React the value of a textarea is placed in a value attribute.
+//In react we use select tags for drop-down, and the default selected value is a value attribute passed to the select tag.
