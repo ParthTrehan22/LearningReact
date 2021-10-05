@@ -10,6 +10,7 @@ import Updating from './Updating';
 import Unmounting from './Unmounting';
 import Events from './Events';
 import Forms from './Forms';
+import Clock from './Clock'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,7 +21,8 @@ ReactDOM.render(
     {/* <Updating color="Black"></Updating> */}
     {/* <Unmounting></Unmounting> */}
     {/* <Events></Events> */}
-    <Forms></Forms>
+    {/* <Forms></Forms> */}
+    <Clock></Clock>
   </React.StrictMode>,
   document.getElementById('root')
 );

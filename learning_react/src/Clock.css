@@ -1,0 +1,19 @@
+*{
+    background-color: darkgray;
+}
+.Timer{
+    margin: 30vh 40vw;
+    text-align: center;
+}
+.Timer > h1{
+    display: flex !important;
+    padding: 40px 0px;
+    justify-content: center;
+    background-color: greenyellow;
+    border: 2px solid red;
+    border-radius: 100px;
+}
+.Timer > p{
+    font-size: 30px;
+    font-style: bold;
+}
